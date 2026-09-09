@@ -1,0 +1,71 @@
+{
+  "total_incidents": 6,
+  "counts_by_severity": {
+    "CRITICAL": 2,
+    "HIGH": 2,
+    "MEDIUM": 1,
+    "LOW": 1
+  },
+  "incidents": [
+    {
+      "id": "INC-001",
+      "title": "Payments service outage",
+      "service": "payments",
+      "affected_users": 15000,
+      "severity": "CRITICAL",
+      "reasons": [
+        "keyword 'outage' -> CRITICAL"
+      ]
+    },
+    {
+      "id": "INC-006",
+      "title": "Unusual login pattern",
+      "service": "auth",
+      "affected_users": 12,
+      "severity": "CRITICAL",
+      "reasons": [
+        "keyword 'breach' -> CRITICAL"
+      ]
+    },
+    {
+      "id": "INC-004",
+      "title": "Auth service degraded",
+      "service": "auth",
+      "affected_users": 800,
+      "severity": "HIGH",
+      "reasons": [
+        "keyword 'degraded' -> HIGH"
+      ]
+    },
+    {
+      "id": "INC-005",
+      "title": "Database latency spike",
+      "service": "database",
+      "affected_users": 3000,
+      "severity": "HIGH",
+      "reasons": [
+        "keyword 'latency spike' -> HIGH"
+      ]
+    },
+    {
+      "id": "INC-002",
+      "title": "Slow response times on search",
+      "service": "search",
+      "affected_users": 500,
+      "severity": "MEDIUM",
+      "reasons": [
+        "keyword 'slow' -> MEDIUM"
+      ]
+    },
+    {
+      "id": "INC-003",
+      "title": "Typo in footer",
+      "service": "marketing-site",
+      "affected_users": 5,
+      "severity": "LOW",
+      "reasons": [
+        "keyword 'cosmetic' -> LOW"
+      ]
+    }
+  ]
+}

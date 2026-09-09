@@ -1,0 +1,50 @@
+[
+  {
+    "id": "INC-001",
+    "title": "Payments service outage",
+    "description": "Checkout is completely down, no transactions are going through.",
+    "service": "payments",
+    "affected_users": 15000,
+    "timestamp": "2026-09-08T10:15:00Z"
+  },
+  {
+    "id": "INC-002",
+    "title": "Slow response times on search",
+    "description": "Users report the search page is slow during peak hours.",
+    "service": "search",
+    "affected_users": 500,
+    "timestamp": "2026-09-08T11:02:00Z"
+  },
+  {
+    "id": "INC-003",
+    "title": "Typo in footer",
+    "description": "Minor cosmetic typo found in the website footer.",
+    "service": "marketing-site",
+    "affected_users": 5,
+    "timestamp": "2026-09-08T09:00:00Z"
+  },
+  {
+    "id": "INC-004",
+    "title": "Auth service degraded",
+    "description": "Login is intermittently failing for some users.",
+    "service": "auth",
+    "affected_users": 800,
+    "timestamp": "2026-09-08T13:45:00Z"
+  },
+  {
+    "id": "INC-005",
+    "title": "Database latency spike",
+    "description": "Increased query latency observed on the main database cluster.",
+    "service": "database",
+    "affected_users": 3000,
+    "timestamp": "2026-09-08T14:30:00Z"
+  },
+  {
+    "id": "INC-006",
+    "title": "Unusual login pattern",
+    "description": "Possible security breach detected on admin accounts.",
+    "service": "auth",
+    "affected_users": 12,
+    "timestamp": "2026-09-08T15:10:00Z"
+  }
+]
